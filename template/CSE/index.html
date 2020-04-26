@@ -1,8 +1,7 @@
 {% extends "CSE/base.html" %}
 {% load static %}
 {% block content %}
-<link rel="stylesheet" href="/static/slider.css">
-<script src="/static/slider.js" type="text/javascript"></script>
+<link rel="stylesheet" href="/static/tickre.css">
 <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -40,6 +39,15 @@
       <span class="sr-only">Next</span>
     </a>
   </div>
+<div class="container">
+  <div class="tcontainer"><div class="ticker-wrap"><div class="ticker-move">
+    <div class="ticker-item" style="color:red"><b>Notice for Re MTE Exam </b></div>
+    <div class="ticker-item" style="color:red"><b>Adaption of Galgotias university amid COVID-19 Lockdown</b></div>
+    <div class="ticker-item" style="color:red"><b>List of Eligible Students for online improvement MTE-April/May 2020</b></div>
+    <div class="ticker-item" style="color:red"><b>Important Notice - Galgotias University Entrance Exam</b></div>
+    <div class="ticker-item" style="color:red"><b>An insightful article by School of Finance and Commerce</b></div>
+  </div></div></div>
+</div>
     <div class="container marketing">
         <!-- Three columns of text below the carousel -->
         <div class="row">
@@ -62,7 +70,7 @@
           </div><!-- /.col-lg-4 -->
         </div><!-- /.row -->
 </div>
-<div class = "container">
+<div class = "container" style="padding: 40px;">
 <div class="row featurette">
   <div class="col-sm-9">
     <h2 class="featurette-heading" style = "text-align: center;"> <b>Message form dean</b><span class="text-muted"></span></h2>
@@ -87,7 +95,6 @@
   </div>
 </div>
 </div>
-
 <div class ="container">
   <div class = "row">
     <div class = "col-sm-5">
@@ -96,13 +103,12 @@
                  <div class="news-bar" style="width:245px; height:356px; border-style:groove ;">
                     <marquee direction = "up" height="100">Galgotias University Has Organised World's First Online Unifest.</marquee>
                   </div>
-        </div>
-    </div>  
+         </div>
+     </div>  
   <div class = "col-sm-7">
     <img src = "/media/banner.jpg" style="width:700px">
   </div>
   </div>
 </div>
-
 {% endblock content %}
   
