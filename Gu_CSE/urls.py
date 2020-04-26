@@ -24,6 +24,8 @@ from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 urlpatterns = [
     path('admin/', admin.site.urls),
     url(r'^$',cse_view.index, name = 'index'),
+    url(r'^about/$', cse_view.aboutus, name = "aboutus"),
+    url(r'^contactus/$', cse_view.contactus, name = "contactus"),
 ]
 
 
