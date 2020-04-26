@@ -1,0 +1,128 @@
+{%load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSE-Galgotias</title>
+<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+ <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+   
+      <li class="nav-item active">
+        <a class="nav-link" href="">HOME<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown active">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          ACADEMICS
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">PROGRAM</a>
+          <a class="dropdown-item" href="#">COURSES</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown active">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          PEOPLE
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">FACLUTY</a>
+          <a class="dropdown-item" href="#">STAFF</a>
+          <a class="dropdown-item" href="#">STUDENT</a>
+        </div>
+      </li>
+    <li class="nav-item dropdown active">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          RESEARCH
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Edit Profile</a>
+          <a class="dropdown-item" href="#">Change Password</a>
+          <a class="dropdown-item" href="#">Reset Passowrd</a>
+          <a class="dropdown-item" href="#">Logout</a>
+        </div>
+      </li>
+    
+      <li class="nav-item active">
+        <a class="nav-link" href="#">EVENTS<span class="sr-only"></span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">RESOURCES<span class="sr-only"></span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">ABOUT US<span class="sr-only"></span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">CONTACT US<span class="sr-only"></span></a>
+      </li>
+      
+
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>  
+  </div>
+</nav>
+    {% block content %}
+
+    {% endblock content %}
+  
+<footer class="footer-distributed">
+  <div class="footer-left">
+    <h3>Galgotias<span>University</span></h3>
+    <p class="footer-links">
+      <a href="#" class="link-1">HOME</a>
+      <a href="#">ACADEMICS</a>
+      <a href="#">ABOUT US</a>
+      <a href="#">RESOURCES</a>
+      <a href="#">CONTACT</a>
+    </p>
+    <p class="footer-company-name">cse@galgotias-uiversity © 2020</p>
+  </div>
+  <div class="footer-center">
+    <div>
+      <i class="fa fa-map-marker"></i>
+      <p><span>Plot No. 2, Sector-17A, Yamuna Expressway,Greater Noida,
+         Gautam buddh Nagar, Uttar Pradesh, India </span></p>
+    </div>
+    <div>
+      <i class="fa fa-phone"></i>
+      <p>+91 9582847072 , 98101622215</p>
+    </div>
+    <div>
+      <i class="fa fa-envelope"></i>
+      <p><a href="mailto:admissions@galgotiasuniversity.edu.in">admissions@galgotiasuniversity.edu.in
+</a></p>
+    </div>
+  </div>
+  <div class="footer-right">
+    <p class="footer-company-about" style= "text-align: justify; font-family:cambria;">
+      <span>Department of Computer science</span>
+      The School of Computing Science & Engineering is a diverse, interdisciplinary innovation 
+      ecosystem comprising of distinguished faculty, researchers, and students. The School is 
+      carrying forward its mission to create future leaders who will keep pace with and 
+      solve the most challenging problems in science, engineering, health, and social domains.
+    </p>
+    <div class="footer-icons">
+      <a href="#"><i class="fa fa-facebook"></i></a>
+      <a href="#"><i class="fa fa-twitter"></i></a>
+      <a href="#"><i class="fa fa-linkedin"></i></a>
+      <a href="#"><i class="fa fa-github"></i></a>
+    </div>
+  </div>
+</footer>  
+    
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</html>
