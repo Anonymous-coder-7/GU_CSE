@@ -116,8 +116,8 @@ section {
 .footer-distributed .footer-center p{
 	display: inline-block;
 	color: #ffffff;
-  font-weight:400;
-	vertical-align: middle;
+    font-weight:400;
+ 	vertical-align: middle;
 	margin:0;
 }
 
@@ -169,6 +169,8 @@ section {
 	margin-bottom: 20px;
 }
 
+
+/* If you don't want the footer to be responsive, remove these media queries 
 .footer-distributed .footer-icons{
 	margin-top: 25px;
 }
@@ -189,7 +191,7 @@ section {
 	margin-right: 3px;
 	margin-bottom: 5px;
 }
-
+*/
 /* If you don't want the footer to be responsive, remove these media queries */
 
 @media (max-width: 1200px) {
